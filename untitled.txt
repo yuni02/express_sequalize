@@ -1,0 +1,20 @@
+GET /admin/products/write
+
+select, insert, update, delete
+
+models.테이블명.create(데이터)
+models.테이블명.findAll(조회조건)
+models.테이블명.findByPk(primary key)
+models.테이블명.findOne(조회조건)
+models.테이블명.update(데이터, 조회조건)
+models.테이블명.destory(조회조건)
+
+mvc 구조 
+
+
+/admin
+
+/contacts
+Contacts.js
+
+npm install mysql2 / npm install sequelize@4.42.0
